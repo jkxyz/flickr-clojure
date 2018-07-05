@@ -17,3 +17,10 @@ Example
 (def u (flickr-user/find-by-username "someusername"))
 (def photosets (photoset/get-by-user u))
 ```
+
+To Do
+-----
+
+- [ ] Full API coverage
+- [ ] OAuth
+- [ ] Caching
