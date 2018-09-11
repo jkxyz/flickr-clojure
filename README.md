@@ -14,8 +14,8 @@ Example
 (require '[flickr.user :as flickr-user]
          '[flickr.photoset :as photoset])
 
-(def u (flickr-user/find-by-username "someusername"))
-(def photosets (photoset/get-by-user u))
+(def u (flickr-user/find-by-username api-info "someusername"))
+(def photosets (photoset/get-by-user api-info u))
 ```
 
 To Do
